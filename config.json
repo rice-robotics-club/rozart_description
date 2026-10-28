@@ -4,8 +4,8 @@
   "assets_directory": "meshes",
   "output_filename": "robot",
   "output_format": "urdf",
-  "document_id": "", # TODO: replace with document_id (after d/ in url)
-  "workspace_id": "", # TODO: replace with workspace_id (after w/ in url)
-  "element_id": "", # TODO: replace with element_id (after e/ in url)
-  "assembly_name": "" # TODO: replace with OnShape assembly name
+  "document_id": "84ae8ea6043cb55d4ccf7c31",
+  "workspace_id": "55ddea59fed54a8313a5dbdb",
+  "element_id": "b4ff4f272266e3613418b6e3",
+  "assembly_name": "Final Assembly"
 }
