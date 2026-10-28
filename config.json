@@ -1,6 +1,6 @@
 {
   "robot_name": "robot",
-  "package_name": "onshape_description",
+  "package_name": "rozart_description",
   "assets_directory": "meshes",
   "output_filename": "robot",
   "output_format": "urdf",

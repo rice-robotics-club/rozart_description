@@ -1,4 +1,4 @@
-# onshape_description
+# rozart_description
 
 This repository contains a template for a ROS2 robot description package. By convention, ROS2 packages
 that exist solely to house a robot's URDF files and CAD meshes are usually titled "[robot name]_description".
@@ -19,7 +19,7 @@ This template includes the following features:
 
 The URDF model can be previewed in rviz2 by running this launch file:
 ```bash
-ros2 launch onshape_description visualize.launch.py
+ros2 launch rozart_description visualize.launch.py
 ```
 
 ### onshape-to-robot
@@ -40,7 +40,7 @@ that may be used, such as for handling kinematic loops.
 
 A joint name array constant is included asa python package, which can be imported via:
 ```Python
-from onshape_description import JOINT_NAMES
+from rozart_description import JOINT_NAMES
 ```
 
 ## Usage
@@ -50,7 +50,7 @@ In order to extend from this template repository, the package name, robot name, 
 ```json
 {
   "robot_name": "robot",
-  "package_name": "onshape_description",
+  "package_name": "rozart_description",
   "assets_directory": "meshes",
   "output_filename": "urdf/robot",
   "output_format": "urdf",
@@ -61,7 +61,7 @@ In order to extend from this template repository, the package name, robot name, 
 }
 ```
 
-2. In `onshape_description/__init__.py`, specify the URDF's joint names:
+2. In `rozart_description/__init__.py`, specify the URDF's joint names:
 
 ```python
 JOINT_NAMES = [

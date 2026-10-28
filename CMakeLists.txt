@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(onshape_description)
+project(rozart_description)
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
