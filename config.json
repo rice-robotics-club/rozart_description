@@ -1,0 +1,11 @@
+{
+  "robot_name": "robot",
+  "package_name": "onshape_description",
+  "assets_directory": "meshes",
+  "output_filename": "robot",
+  "output_format": "urdf",
+  "document_id": "", # TODO: replace with document_id (after d/ in url)
+  "workspace_id": "", # TODO: replace with workspace_id (after w/ in url)
+  "element_id": "", # TODO: replace with element_id (after e/ in url)
+  "assembly_name": "" # TODO: replace with OnShape assembly name
+}
